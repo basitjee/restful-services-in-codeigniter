@@ -1,0 +1,3 @@
+SELECT `id`, `name`, `price`, `author`, `category`, `language`, `ISBN`, `publish_date`
+FROM `tbl_books`
+WHERE `isbn` = '978-11187777881'
